@@ -1,0 +1,249 @@
+/*=================LAYOUT SECTION==============*/
+
+
+
+body {
+
+	background-color: black;
+	margin: 100px 50px 50px 200px;
+	font-family: verdana, Georgia, serif;
+	font-size: 20px;
+	color: white;
+}
+
+
+#header {
+
+	background-color: #87CEF0;
+	margin: 10px;
+	height: 90px;
+    border-radius: 5px;
+}
+
+
+#navbar ul {
+
+	padding: 5px;
+	list-style-type: none;
+	text-align: center;
+	background-color: WHITE;
+	margin: 10px;
+    border-radius: 5px;
+}
+
+#navbar ul li {
+	display: inline;
+		margin-left: 10PX;
+}
+
+.navmove ul li {
+ float:left;
+}
+#navbar ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #fff;
+	background-color: #000;
+}
+
+#navbar ul li a:hover {
+
+	color: #000;
+	background-color: #fff;
+}
+
+
+.slider {
+
+	background-color: #e5e4d7;
+	margin-left: 10px;
+    margin-right: 320px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+	font-size: 0%;
+    height: 100%;
+	width: 150%;
+}
+
+.slider:hover {
+
+	opacity: 0.4
+}
+
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400;
+	}
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	height: 700px;
+	float: left;
+	border-radius: 5px;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	height: 300px;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 25s slider infinite;
+}
+
+.method {
+	background-color: #5c755e;
+	margin: 10px;
+	height: 60px;
+	clear:both;
+	border-radius: 5px;
+	color: #efe5d0;
+	text-align: center;
+	padding: 15px;
+	font-size: 50%;
+
+}
+
+h1 {
+	font-size: 90%;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	font-size: 120%;
+	color: darkblue;
+}
+
+h3 {
+	font-size: 250%;
+	text-align:center;
+	color:black;
+	font-family: "century Gothic", "Gill Sans", Arial, sans, Serif;
+	margin: 0px;
+	position: relative;
+    top: 50%;
+    -webk it-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+
+.sideright  {
+
+	background-color: #989E26;
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+	font-size: 80%;
+    float: right;
+    width: 300px;
+    clear: right;
+		color: black;
+}
+
+
+
+
+
+
+.imagesidebar  {
+
+	width: 300px;
+	float: right;
+	border-radius: 5px;
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    clear: right;
+	opacity: 1.0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.imagesidebar:hover {
+
+	opacity: 0.4
+}
+
+#footer {
+	background-color: black;
+	margin: 10px;
+	height: 60px;
+	clear:both;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	padding: 15px;
+	font-size: 90%;
+}
+
+#footer ul {
+	padding: 5px;
+	list-style-type: none;
+	text-align: center;
+	margin: 10px;
+    border-radius: 5px;
+}
+
+#footer ul li {
+	display: inline;
+	margin-left: 20px;
+}
+
+#footer ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: black;
+	background-color: #87CEF0;
+}
+
+#footer ul li a:hover {
+
+	color: black;
+	background-color: #fff;
+}
+
+
+/*=================HEADINGS SECTION==============*/
